@@ -1,0 +1,466 @@
+@import url(https://db.onlinewebfonts.com/c/7f71968c596ca49dd9a64d08641d5025?family=Pauline+Didone+W01+Bold);
+
+@import url(https://db.onlinewebfonts.com/c/e695a2b548e145591a266fc50eb492e0?family=Regular);
+
+body {
+  background-color: #e0d4ba;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 15px;
+}
+
+/* Página Principal */
+
+/* Header */
+
+.cabecalho {
+  text-align: center;
+  font-family: Pauline Didone W01 Bold;
+  color: #522b0c;
+}
+
+h1 {
+  font-family: Pauline Didone W01 Bold;
+  color: #522b0c;
+  font-size: 35px;
+}
+
+p {
+  font-family: "Regular";
+  color: #522b0c;
+  font-size: 17px;
+}
+.logo {
+  width: 150px;
+  height: 120px;
+}
+
+.nav-links {
+  background-color: #f7c3b6;
+  font-family: "Regular";
+  font-size: 18px;
+  justify-content: flex-end;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px;
+  border: 0.5px solid #522b0c;
+}
+
+a {
+  color: #522b0c;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  background-color: #e0d4ba;
+}
+
+/* Imagem */
+
+.box img {
+  border-radius: 5px;
+  width: 600px;
+  height: 400px;
+}
+
+.container {
+  display: flex;
+}
+h3 {
+  font-size: 22px;
+  font-family: "Regular";
+  color: #522b0c;
+  font-family: Pauline Didone W01 Bold;
+}
+
+.history {
+  padding-left: 10px;
+}
+
+.information {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 40px;
+}
+
+/* Footer */
+.footer,
+.footer p {
+  background-color: #f7c3b6;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: Pauline Didone W01 Bold;
+  margin: 5px;
+}
+
+.footer {
+  border: 0.5px solid #522b0c;
+}
+
+/* Página dos bolos */
+
+.titulobolo h2 {
+  font-family: Pauline Didone W01 Bold;
+  color: #522b0c;
+  font-size: 35px;
+}
+
+.container1,
+.container2,
+.container3,
+.container4 {
+  border: 1px solid #522b0c;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  background-color: #f7c3b6;
+}
+
+.bolo1,
+.bolo2,
+.bolo3,
+.bolo4,
+.bolo5,
+.bolo6 {
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+  border: 0.5px solid #522b0c;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #e0d4ba;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.cake {
+  margin: 5px;
+}
+
+.namecake,
+.namecake p {
+  font-weight: bold;
+  font-family: Pauline Didone W01 Bold;
+  font-size: 20px;
+}
+
+/* Página das Sobremesas */
+
+.titulosobremesa h2 {
+  font-family: Pauline Didone W01 Bold;
+  color: #522b0c;
+  font-size: 35px;
+}
+
+.sobremesa1,
+.sobremesa2,
+.sobremesa3,
+.sobremesa4,
+.sobremesa5,
+.sobremesa6 {
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+  border: 0.5px solid #522b0c;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #e0d4ba;
+}
+
+.dessert {
+  margin: 5px;
+}
+
+.namedessert,
+.namedessert p {
+  font-weight: bold;
+  font-family: Pauline Didone W01 Bold;
+  font-size: 20px;
+}
+
+/* Página do Formulário */
+.container5 {
+  display: flex;
+  justify-content: center;
+}
+
+.formulario {
+  background-color: #f7c3b6;
+  border: 1px solid #522b0c;
+  border-radius: 3px;
+  text-align: center;
+  width: 600px;
+  height: 300px;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: "Regular";
+  color: #522b0c;
+}
+
+form {
+  font-family: "Regular";
+  color: #522b0c;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+textarea,
+button {
+  color: #522b0c;
+  font-weight: bold;
+}
+
+.nome,
+.email {
+  width: 250px;
+  height: 20px;
+}
+
+.telefone {
+  width: 200px;
+  height: 20px;
+}
+
+textarea .mensagem {
+  width: 300px;
+  height: 100px;
+}
+
+/* >>>>>>>>>>>>> MOBILE >>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* Small devices (portrait tablets and large phones) */
+@media (max-width: 480px) {
+  /* Página Principal*/
+  body {
+    background-color: #e0d4ba;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 15px;
+  }
+  section {
+    padding-left: 10px;
+  }
+
+  h1 {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  p {
+    font-size: 14px;
+  }
+  .history h3 p {
+    margin: auto;
+  }
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+
+  nav-links {
+    background-color: #f7c3b6;
+    font-family: "Regular";
+    font-size: 8px;
+    justify-content: flex-end;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
+    border: 0.5px solid #522b0c;
+  }
+
+  a {
+    color: #522b0c;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .nav-links a:hover {
+    background-color: #e0d4ba;
+  }
+
+  .container img {
+    border-radius: 5px;
+    width: 400px;
+    height: 200px;
+  }
+
+  h3 {
+    margin: 0;
+  }
+
+  .box {
+    width: auto;
+    height: auto;
+  }
+
+  .history {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 460px;
+  }
+
+  .information {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 40px;
+  }
+
+  /* Página Bolos */
+
+  .container1,
+  .container2 {
+    display: flex;
+  }
+
+  /* Página Sobremesas */
+  body {
+    height: 480px;
+  }
+
+  .container1,
+  .container2,
+  .container3,
+  .container4 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .sobremesa1 {
+    display: flex;
+  }
+  .sobremesa2 {
+    display: flex;
+  }
+  .sobremesa3 {
+    display: flex;
+  }
+
+  /* Página Contato */
+  .formulario {
+    height: 330px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+/* >>>>>>>>>>>>> TABLET >>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* Medium devices (landscape tablets, 768px ) */
+@media screen and (max-width: 768px) {
+  /* Página Principal */
+
+  main {
+    padding-left: 4px;
+    margin-right: 10px;
+  }
+  section {
+    padding-left: 10px;
+  }
+
+  h1 {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  p {
+    font-size: 14px;
+  }
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+
+  nav-links {
+    background-color: #f7c3b6;
+    font-family: "Regular";
+    font-size: 18px;
+    justify-content: flex-end;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
+    border: 0.5px solid #522b0c;
+  }
+
+  a {
+    color: #522b0c;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .nav-links a:hover {
+    background-color: #e0d4ba;
+  }
+  img {
+    border-radius: 5px;
+    width: 400px;
+    height: 200px;
+  }
+
+  h3 {
+    margin-top: 15px;
+  }
+
+  .box {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .history {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: auto;
+  }
+
+  .information {
+    font-size: 10px;
+    font-weight: bolder;
+  }
+  .container1,
+  .container2,
+  .container3,
+  .container4 {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
+  /* Página Contato */
+  .formulario {
+    height: 330px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
